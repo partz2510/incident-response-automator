@@ -40,7 +40,8 @@ VT_API_KEY=your_virustotal_api_key
 python src/main.py
 ```
 
-🧾 Example Output
+## 🧾 Example Output
+
 ![Incident Response Summary](https://github.com/partz2510/incident-response-automator/blob/main/screenshots/Incident%20Response%20summary.png?raw=true)
 
 
