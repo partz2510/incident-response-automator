@@ -27,3 +27,33 @@ cd incident-response-automator
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1   # (Windows)
 pip install -r requirements.txt
+```
+
+Create a .env file and add:
+
+```bash
+VT_API_KEY=your_virustotal_api_key
+```
+
+## 🚀 Usage
+```bash
+python src/main.py
+```
+
+🧾 Example Output
+![Incident Response Summary](https://github.com/partz2510/incident-response-automator/blob/main/screenshots/Incident%20Response%20summary.png?raw=true)
+
+
+## 🔮 Future Enhancements
+
+1. Integrate AbuseIPDB / OTX lookups
+
+2. Add YARA or hash extraction from local files
+
+3. Generate PDF reports for SOC summaries
+
+
+## 👤 Author
+
+Parthiban Ganesan
+Cybersecurity & Cloud Enthusiast
